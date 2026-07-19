@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 # Leitura dos dados
-car_data = pd.read_csv('/Users/rodolfo/Projetos/vehicles_sales/vehicles_env/vehicles.csv')
+car_data = pd.read_csv('/Users/rodolfo/Projetos/vehicles_sales/vehicles.csv')
 
 # Cabeçalho principal
 st.header('Análise Anuncio vendas - Vehicles')
@@ -23,4 +23,3 @@ if build_scatter:# se o botão for clicado
      st.write('Criando um gráfico de dispersão para o conjunto de dados de anúncios de vendas de carros')
      fig = px.scatter(car_data, x="odometer", y="price")
      st.plotly_chart(fig, use_container_width=True)
-     
