@@ -29,3 +29,7 @@ O aplicativo web, criado com `streamlit`, oferece as seguintes funcionalidades:
 - Pandas
 - Plotly Express
 - Streamlit
+
+## URL do Aplicativo online
+
+O aplicativo está disponível online através do Render: https://vehicles-sales.onrender.com
